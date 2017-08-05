@@ -10,9 +10,9 @@ namespace ComicBookGalary.Controllers
     {
         public ActionResult Detail()
         {
-            ViewBag.SeriesTitle = "Gone with the wind";
-            ViewBag.IssueNumber = 700;
-            ViewBag.Description = "<p>some details about the issue</p><p>it is not that important</p>";
+            ViewBag.SeriesTitle = "my Deen";
+            ViewBag.IssueNumber = "2371-8978";
+            ViewBag.Description = "<div>August 2017, Ages 8-11</div></div><h3>Sharing is caring</h3>";
             ViewBag.Artists = new string[]
             {
                 "Artist 1",
