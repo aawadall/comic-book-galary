@@ -10,6 +10,9 @@ namespace ComicBookGalary.Controllers
     {
         public ActionResult Detail()
         {
+
+
+
             if (DateTime.Today.DayOfWeek == DayOfWeek.Saturday)
             {
                 return new RedirectResult("/");
