@@ -1,5 +1,17 @@
 ﻿@{
     Layout = null;
+    var seriesTitle = "Gone with the wind";
+    var issueNumber = 700;
+    var description = "<p>some details about the issue</p><p>it is not that important</p>";
+    var artists = new string[]
+    {
+        "Artist 1",
+        "Artist 2",
+        "Artist 3",
+        "Artist 4",
+        "Artist 5",
+        "Artist 6"
+    };
 }
 
 <!DOCTYPE html>
@@ -11,7 +23,14 @@
 </head>
 <body>
     <div>
-        <h1>The Quick Brown Fox Jumps over the Lazy Dog's Tail</h1>
+        <h1>@seriesTitle</h1>
+        <h2>Issue # @issueNumber</h2>
+
+        <h5>Description:</h5>
+        <div>@Html.Raw(description)</div>
+
+        <h5>Artists:</h5>
+        <div>@artists</div>
     </div>
 </body>
 </html>
