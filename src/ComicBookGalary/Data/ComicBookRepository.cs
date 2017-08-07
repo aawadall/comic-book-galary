@@ -10,23 +10,10 @@ namespace ComicBookGalary.Data
     {
         private static ComicBook[] _comicBooks = new ComicBook[]
          {
+
             new ComicBook()
             {
-                SeriesTitle = "The Amazing Spider-Man",
-                IssueNumber = 700,
-                DescriptionHtml = "<p>Final issue! Winess the final hours of Doctor Octopus' life and his one, last , great act of revenge! Even if Spider-Man survives...<strong>Will Peter Parker?</strong></p>",
-                Artists = new Artist[]
-                {
-                    new Artist(){Name="Dan Slott",Role= "Script"},
-                    new Artist(){Name="Humberto Ramos",Role= "Pencils"},
-                    new Artist(){Name="Victor Olazaba",Role= "Inks"},
-                    new Artist(){Name="Edgar Delgado",Role= "Colors"},
-                    new Artist(){Name="Chris Eliopoulos",Role= "Letters"},
-                },
-                Favorite = true
-            },
-            new ComicBook()
-            {
+                ID = 1, 
                 SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 700,
                 DescriptionHtml = "<p>Final issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives...<strong>will Peter Parker?</strong></p>",
@@ -42,6 +29,7 @@ namespace ComicBookGalary.Data
             },
             new ComicBook()
             {
+                ID = 2,
                 SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 657,
                 DescriptionHtml = "<p><strong>FF: THREE TIE-IN.</strong> Spider-Man visits the FF for a very private wake--just for family.</p>",
@@ -57,6 +45,7 @@ namespace ComicBookGalary.Data
             },
             new ComicBook()
             {
+                ID = 3,
                 SeriesTitle = "Bone",
                 IssueNumber = 50,
                 DescriptionHtml = "<p><strong>The Dungeon & The Parapet, Part 1.</strong> Thorn is discovered by Lord Tarsil and the corrupted Stickeaters and thrown into a dungeon with Fone Bone. As she sleeps, a message comes to her about the mysterious \"Crown of Horns\".</p>",
